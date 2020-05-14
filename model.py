@@ -1,7 +1,6 @@
-import torch
-import torch.nn as nn
 from functools import reduce
-from torch.autograd import Variable
+
+import torch.nn as nn
 
 
 class shave_block(nn.Module):
